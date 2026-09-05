@@ -1,0 +1,19 @@
+# GeoNizam - Python 3.11.9 dependency list
+# Install with: pip install -r requirements.txt
+#
+# Attendance is a plain selfie capture (no AI face-matching) reviewed by
+# the Admin. Live GPS Tracking uses free/open technology only:
+#   - Map widget: tkintermapview (MIT licensed) rendering standard
+#                 OpenStreetMap tiles -- no API key, no paid tier.
+#   - Device position: the employee's own browser, using the real HTML5
+#                 Geolocation API (navigator.geolocation.watchPosition),
+#                 served by a local-only HTTP server built entirely on
+#                 the Python standard library (http.server, socket,
+#                 webbrowser) -- no extra dependency, never IP-based.
+#   - Reverse geocoding: free, keyless OpenStreetMap Nominatim, called
+#                 with the standard library (urllib.request).
+customtkinter==5.2.2
+opencv-python>=4.10.0.84
+numpy==1.26.4
+Pillow==10.3.0
+tkintermapview==1.29
