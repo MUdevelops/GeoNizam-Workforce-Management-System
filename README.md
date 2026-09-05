@@ -453,8 +453,8 @@ If you find GeoNizam useful or interesting:
 
 # GeoNizam
 
-### Workforce Management — Simplified.
+### Workforce Management .
 
 ````
-
+git clone https://github.com/MUdevelops/GeoNizam-Workforce-Management-System.git
 
